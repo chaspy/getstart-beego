@@ -36,3 +36,7 @@
 [prune]
   go-tests = true
   unused-packages = true
+
+[metadata.heroku]
+  root-package = "github.com/chaspy/todo"
+  go-version = "go1.11.2"
